@@ -11,10 +11,10 @@ console.log('Welcome!!');
 
 let input = prompt('input your color(s): ');
 
-let color1 = [r, b, y];
-let color2 = [p, o, g];
+let primary = [r, b, y];
+let secondary = [p, o, g];
 
-if (!input.includes(color1) || !input.includes(color2)) {
+if (input.includes(primary) || input.includes(secondary)) {
     console.log('Error 404 - Please try again');
     return;
 }
